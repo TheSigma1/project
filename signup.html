@@ -1,65 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>WIL-Intern</title>
+  <link rel="icon" href="https://thewitslab.com/static/media/witslogo.262601f8.svg">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  <script src="validation.js"></script>
 </head>
+ 
 <body>
-    <div class = "bkg" id="bk"></div>
-    <h1 class = "signin"> SIGN IN</h1><h4 class = "signin1">Already have an account</h4>
-<br><input class ="txt" type ="text" name="email" placeholder="E-Mail"/>
-<br><input class ="txt" type ="text" name="Password" placeholder="Password"/>
-<br><button class = "forg" type = "button"> Forgot password</button>
-    <button class = "sign" type = "button">SIGN-IN</button><br>
-    <button class="usr" type="button">New User, Sign Up</button>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIllup</title>
-    <link rel="stylesheet" href="/Users/saurabhthakur/Desktop/signup page/index.css" type = "text/css">
-</head>
-<body>
-    <script src="passvalid.js"></script>    
-
-<div id="login-box">
-    <div class="left">
-      <h1>Sign up</h1>
-      
-      <input type="text" name="full name" placeholder="Full Name" />
-      <br>
-      <br><input type="text" name="email" placeholder="E-mail" />
-      <br>
-      <br><input type="password" name="password" placeholder="Password" />
-      <br>
-      <br><input type="password" name="password2" placeholder="confirm password" />
-      <br>
-      <br><input type="submit" name="signup_submit" value="Sign up" />
-    </div>
-    
-    <div class="right">
-      
-    </div>
-    
+  <div class="container">
+  <div class="form">
+  <div class="btn">
+  <button class="signUpBtn">SIGN UP</button>
+  <a href="http://127.0.0.1:5500/login.html" target="loginBtn">
+  <button class="loginBtn">LOG IN</button>
+  </a>  
   </div>
+
+  <form id="form" class="form">
+   <div class="form-control" id="fname">
+  <input type="text" class="form-control" placeholder="Full Name"  >
+  <small>Error message</small>
+  </div>
+
+
+
+  <div class="form-control" >
+  <input id="email" type="email" name="email" class="form-control" placeholder="Email ID" >
+  <i class="fa fa-check-circle"></i>
+  <i class="fa fa-exclamation-circle"></i>
+  <small>Error message</small>
+  </div>
+
+
+  <div class="form-control" >
+  <input id="pass" type="password" name="psw" class="form-control" placeholder="Password"  >
+  <i class="fa fa-check-circle"></i>
+  <i class="fa fa-exclamation-circle"></i>
+  <small>Error message</small>
+  </div>
+
+
+  <div class="form-control" >
+  <input  id="cpass" type="password" name="cpass" class="form-control" placeholder="Confirm Password"><i class="fa fa-check-circle"></i>
+  <i class="fa fa-exclamation-circle"></i>
+  <small>Error message</small>
+  </div>
+
+  
+  <input name="signup" value="Register" type="submit"  class="btn2"> </button>
+  </div>
+  </form>
+  </div>
+  </div>
+ 
 </body>
+ 
 </html>
--->
